@@ -1,0 +1,39 @@
+/* 字体检测 */
+.mod-zoomdetect {
+    width : 100%;
+    height : 40px;
+    background : #FEFFE5;
+    line-height : 40px;
+    font-size : 16px;
+    text-align : center;
+    border-bottom : 1px solid #E7CF7B;
+    user-select : none;
+    clear:both;
+}
+.mod-zoomdetect q {
+    font-weight: bold;
+    color: #f00;
+}
+.mod-zoomdetect .wzd-btnclose {
+    float: right;
+    margin: 12px 10px 0 0;
+    line-height : 20px;
+    font-size : 14px;
+    text-decoration : none;
+    display: block;
+    height: 17px;
+    width: 18px;
+    text-indent: -999em;
+    background: url(./img/btnclose.png) center center no-repeat;
+}
+.mod-zoomdetect .wzd-close:hover {
+    text-decoration : none;
+}
+.mod-zoomdetect .wzd-nevertip {
+    text-decoration: underline;
+    color: #2383C2;
+    font-size : 14px;
+}
+.mod-zoomdetect .wzd-nevertip:hover {
+    color: #23a3C2;
+}
